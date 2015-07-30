@@ -1,57 +1,32 @@
 {
-  "name": "soi",
-  "version": "0.10.9",
-  "description": "Build tools for oslojs",
+  "name": "layout",
+  "version": "0.1",
+  "description": "layout template",
   "directories": {
     "test": "tests"
   },
-  "main": "boot.js",
+  "main": "layout.tpl",
   "scripts": {
     "test": "mocha --timeout 60000 ./tests/**/*-Spec.js"
   },
   "bin": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/Saber-Team/soi.git"
+    "url": "https://github.com/shanli/merchant.git"
   },
   "keywords": [
-    "build tools",
+    "layout template",
     "javascript",
     "nodejs",
     "oslojs"
   ],
-  "author": "AceMood",
+  "author": "shanli",
   "license": {
     "type": "MIT",
-    "url": "https://github.com/Saber-Team/soi/blob/master/LICENSE.md"
+    "url": "https://github.com/shanli/merchant/blob/master/LICENSE.md"
   },
   "bugs": {
-    "url": "https://github.com/Saber-Team/soi/issues"
+    "url": "https://github.com/shanli/merchant/issues"
   },
-  "homepage": "https://github.com/Saber-Team/soi",
-  "devDependencies": {
-    "chai": "^1.10.0",
-    "chalk": "^0.5.1",
-    "css": "^2.2.1",
-    "glob": "^5.0.5",
-    "mocha": "^2.0.1",
-    "optimist": "^0.6.1",
-    "restler": "^3.3.0",
-    "rimraf": "^2.2.8",
-    "uglify-js": "^2.4.23",
-    "watch": "^0.16.0"
-  },
-  "dependencies": {
-    "chai": "^1.10.0",
-    "chalk": "^0.5.1",
-    "css": "^2.2.1",
-    "express": "^4.13.0",
-    "glob": "^5.0.5",
-    "mocha": "^2.0.1",
-    "optimist": "^0.6.1",
-    "restler": "^3.3.0",
-    "rimraf": "^2.2.8",
-    "uglify-js": "^2.4.23",
-    "watch": "^0.16.0"
-  }
+  "homepage": "https://github.com/shanli/merchant"
 }

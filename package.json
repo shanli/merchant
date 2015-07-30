@@ -1,0 +1,57 @@
+{
+  "name": "soi",
+  "version": "0.10.9",
+  "description": "Build tools for oslojs",
+  "directories": {
+    "test": "tests"
+  },
+  "main": "boot.js",
+  "scripts": {
+    "test": "mocha --timeout 60000 ./tests/**/*-Spec.js"
+  },
+  "bin": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Saber-Team/soi.git"
+  },
+  "keywords": [
+    "build tools",
+    "javascript",
+    "nodejs",
+    "oslojs"
+  ],
+  "author": "AceMood",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/Saber-Team/soi/blob/master/LICENSE.md"
+  },
+  "bugs": {
+    "url": "https://github.com/Saber-Team/soi/issues"
+  },
+  "homepage": "https://github.com/Saber-Team/soi",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "chalk": "^0.5.1",
+    "css": "^2.2.1",
+    "glob": "^5.0.5",
+    "mocha": "^2.0.1",
+    "optimist": "^0.6.1",
+    "restler": "^3.3.0",
+    "rimraf": "^2.2.8",
+    "uglify-js": "^2.4.23",
+    "watch": "^0.16.0"
+  },
+  "dependencies": {
+    "chai": "^1.10.0",
+    "chalk": "^0.5.1",
+    "css": "^2.2.1",
+    "express": "^4.13.0",
+    "glob": "^5.0.5",
+    "mocha": "^2.0.1",
+    "optimist": "^0.6.1",
+    "restler": "^3.3.0",
+    "rimraf": "^2.2.8",
+    "uglify-js": "^2.4.23",
+    "watch": "^0.16.0"
+  }
+}

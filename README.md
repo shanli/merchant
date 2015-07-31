@@ -4,7 +4,3 @@
 + 安装方法
   + npm install merchant
   + 安装成功之后在当目录的node_modules/merchant目录下会拉取到最新的layout.tpl
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master

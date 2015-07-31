@@ -1,32 +1,23 @@
 {
-  "name": "layout",
-  "version": "0.1",
+  "name": "merchant",
+  "version": "0.1.0",
   "description": "layout template",
-  "directories": {
-    "test": "tests"
-  },
   "main": "layout.tpl",
   "scripts": {
-    "test": "mocha --timeout 60000 ./tests/**/*-Spec.js"
+    "test": "test"
   },
-  "bin": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/shanli/merchant.git"
+    "url": "git:https://github.com/shanli/merchant.git"
   },
   "keywords": [
-    "layout template",
-    "javascript",
-    "nodejs",
-    "oslojs"
+    "node"
   ],
   "author": "shanli",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/shanli/merchant/blob/master/LICENSE.md"
-  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/shanli/merchant/issues"
   },
-  "homepage": "https://github.com/shanli/merchant"
+  "homepage": "https://github.com/shanli/merchant",
+  "dependencies": {}
 }
